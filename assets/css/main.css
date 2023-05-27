@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrap{
+    max-width: 960px;
+    margin: auto;
+    height: 100vh;
+}
+
+h2{
+    margin-bottom: 35px;
+}
+
+.about-me h2, .skills h2, .portafolio h2, .clientes h2, .contacto h2{
+    padding: 20px;
+    text-align: center;
+    font-size: 36px;
+}
+
+.about-me, .skills, .portafolio, .clientes, .contacto{
+    padding: 30px;
+}
+
+/* portada */
+.portada{
+    position: relative;
+}
+
+.portada h1{
+    position: absolute;
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    padding: 20px;
+    box-sizing: border-box;
+    top: 2%;
+    left: 45%;
+}
+
+.portada h2{
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    padding: 20px;
+    top: 200px;
+    left: 9%;
+    background: rgba(106, 169, 226, 0.5);
+}
+
+/* sobre mi */
+
+.about-me{
+    background-color: #7299FE; 
+}
+
+.about-me h2{
+    color: #1d06a7;
+}
+
+.about-me p{
+    font-size: 14px;
+    line-height: 24px;
+    color: white;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+.about-me button{
+    background: #d16fff;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 10px;
+    color: white;
+    width: 187px;
+    height: 62px;
+    font-size: 22px;
+    box-shadow: 0px 5px 10px #5775c2;
+}
+
+
+/* mis skills */
+
+.skills{
+    background-color: #9022ff;
+}
+
+.skills h2{
+    color: #26cc4b;
+}
+
+.skills h3{
+    color: white;
+}
+
+.skills .list{
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(2,1fr);
+    margin-bottom: 40px;
+}
+
+.skills .list-bar ,.skills .list-bar div{
+    border-radius: 10px;
+}
+
+.skills .list-bar{
+    background-color: white;
+    height: 20px;
+}
+
+.skills .list-bar div{
+    height: 20px;
+    background: aqua;
+    width: 100%;
+}
+
+/* portafolio */
+.portafolio{
+    background: #ffd233;
+}
+
+.portafolio h2{
+    color: #00ad84;
+}
+
+.portafolio-box{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.portafolio-img{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 700px;
+    justify-content: center;
+}
+
+.portafolio figure img{
+    margin: 8px;
+    border: none;
+}
+
+/* clientes */
+.clientes{
+    background: #3f4e62;
+}
+
+.clientes-box{
+    margin-bottom: 40px;
+}
+
+.clientes h2{
+    color: #adff28;
+}
+
+.clientes-img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+/* contacto */
+.contacto{
+    background: #1687a0;
+}
+
+.contacto h2{
+    color: #ff1b1b;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.form-bar{
+    width: 363px;
+    height: 59px;
+    margin: 20px;
+}
+
+.form-bar-two{
+    width: 775px;
+    height: 112px;
+    margin: 20px;
+}
+
+.contacto button{
+    background: #233451;
+    border: none;
+    color: white;
+    width: 167px;
+    height: 56px;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
